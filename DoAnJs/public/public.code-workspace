@@ -1,0 +1,13 @@
+{
+    "folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../../../../xampp02/htdocs/api"
+		}
+	],
+    "settings": {
+        "liveServer.settings.multiRootWorkspaceName": "public"
+    }
+}

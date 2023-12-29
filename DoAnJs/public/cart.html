@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+</head>
+
+<body>
+    <!-- header -->
+    <div class="row d-flex flex-row pt-4 pb-2 bg-light-gray m-0">
+        <div class=" col-2 ">
+            <div class="d-flex justify-content-center"><img src="/images/logo/logo-1685434770.jpg" alt="">
+            </div>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-6">
+            <div class="row d-flex flex-row">
+                <div class="dropdown show w-15 p-0">
+                    <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                       Home
+                  </a>
+
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <a class="dropdown-item" href="#">Home 1</a>
+                        <a class="dropdown-item" href="#">Home 2</a>
+                        <a class="dropdown-item" href="#">Home 3</a>
+                        <a class="dropdown-item" href="#">Home 4</a>
+                        <a class="dropdown-item" href="#">Home 5</a>
+                        <a class="dropdown-item" href="#">Home 6</a>
+                    </div>
+                </div>
+                <div class="dropdown show w-15 p-0">
+                    <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                       Shop
+                  </a>
+
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <a class="dropdown-item" href="#">Shop 1</a>
+                        <a class="dropdown-item" href="#">Shop 2</a>
+                        <a class="dropdown-item" href="#">Shop 3</a>
+                    </div>
+                </div>
+                <div class="dropdown show w-15 p-0">
+                    <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                       Product
+                  </a>
+
+                    <div class="dropdown-menu custom-dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <a class="dropdown-item" href="#">Chair</a>
+                        <a class="dropdown-item" href="#">Table</a>
+                        <a class="dropdown-item" href="#">Another</a>
+
+                    </div>
+                </div>
+                <div class="dropdown show w-15 p-0">
+                    <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Blog
+                  </a>
+
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <a class="dropdown-item" href="#">Blog List</a>
+                        <a class="dropdown-item" href="#">Blog Category</a>
+                        <a class="dropdown-item" href="#">Blog Details</a>
+
+                    </div>
+                </div>
+                <div class="dropdown show w-15 p-0">
+                    <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                       Pages
+                  </a>
+
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <a class="dropdown-item" href="#">Page 1</a>
+                        <a class="dropdown-item" href="#">Page 2</a>
+                        <a class="dropdown-item" href="#">Page 3</a>
+
+                    </div>
+                </div>
+
+                <p class=" w-15 m-0 d-flex align-items-center"><a class=" text-justify text-primary text-decoration-none" href="#">Contacts</a></p>
+            </div>
+        </div>
+        <div class="col-3 d-flex flex-row justify-content-end p-0">
+            <div class="col-8 d-flex justify-content-center align-items-center p-0">
+                <nav class="navbar navbar-light bg-light p-0">
+                    <form action="search.html" class="d-flex form-inline" id="search">
+                        <input name="key" class=" border-secondary form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn border-secondary my-2 my-sm-0" type="submit">     <i class=" fas fa-search text-justify text-primary text-decoration-none"></i></button>
+                    </form>
+                </nav>
+
+            </div>
+            <div class="col-4 px-3 d-flex flex-row justify-content-center align-items-center">
+                <div class="dropdown pe-3">
+                    <button class="btn d-flex justify-content-center align-items-center p-0" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                      <i class=" fa-solid fa-user text-justify text-primary text-decoration-none"></i>
+              
+                  </button>
+                    <ul class="account-position dropdown-menu " aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item" href="./login.html">Sign in</a></li>
+                        <li><a class="dropdown-item" href="./register.html">Register </a></li>
+                    </ul>
+                </div>
+                <a href=""><i class=" fa-solid fa-cart-plus text-justify text-primary text-decoration-none"></i></a>
+            </div>
+        </div>
+    </div>
+    <!-- content -->
+
+    <!-- Breadcrumb -->
+    <div class="breadcrumb py-5 bg-light-gray">
+        <div class="px-5">
+            <a href="/home.html">Home</a>
+        </div>
+    </div>
+
+    <!-- Content -->
+    <!-- HTML -->
+    <div class="row m-0">
+        <div class="row col-8 p-0 m-0 d-flex flex-row">
+            <div class="p-0">
+                <div class="d-flex justify-content-between align-items-center mb-5">
+                    <h1 class="fw-bold mb-0 text-black">Cart</h1>
+                    <h6 class="mb-0 text-muted">3 items</h6>
+                </div>
+                <hr class="my-4">
+
+                <div class="row mb-4 d-flex justify-content-between align-items-center">
+                    <div class="col-md-2 col-lg-2 col-xl-2">
+                        <img src="./images/img4.jpg" class="img-fluid rounded-3" alt="">
+                    </div>
+                    <div class="col-md-3 col-lg-3 col-xl-3">
+                        <h6 class="text-muted">teacup</h6>
+                        <h6 class="text-black mb-0">Teacup</h6>
+                    </div>
+                    <div class="col-md-3 col-lg-3 col-xl-2 d-flex">
+                        <button class="btn btn-link px-2" onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
+      <i class="fas fa-minus"></i>
+    </button>
+
+                        <input id="form1" min="0" name="quantity" value="1" type="number" class="form-control form-control-sm" />
+
+                        <button class="btn btn-link px-2" onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
+      <i class="fas fa-plus"></i>
+    </button>
+                    </div>
+                    <div class="col-md-3 col-lg-2 col-xl-2 offset-lg-1">
+                        <h6 class="mb-0">$ 44.00</h6>
+                    </div>
+                    <div class="col-md-1 col-lg-1 col-xl-1 text-end">
+                        <a href="#!" class="text-muted"><i class="fas fa-times"></i></a>
+                    </div>
+                </div>
+
+                <hr class="my-4">
+
+                <div class="row mb-4 d-flex justify-content-between align-items-center">
+                    <div class="col-md-2 col-lg-2 col-xl-2">
+                        <img src="./images/img2.jpg" class="img-fluid rounded-3" alt="">
+                    </div>
+                    <div class="col-md-3 col-lg-3 col-xl-3">
+                        <h6 class="text-muted">teacup</h6>
+                        <h6 class="text-black mb-0">Teacup</h6>
+                    </div>
+                    <div class="col-md-3 col-lg-3 col-xl-2 d-flex">
+                        <button class="btn btn-link px-2" onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
+      <i class="fas fa-minus"></i>
+    </button>
+
+                        <input id="form1" min="0" name="quantity" value="1" type="number" class="form-control form-control-sm" />
+
+                        <button class="btn btn-link px-2" onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
+      <i class="fas fa-plus"></i>
+    </button>
+                    </div>
+                    <div class="col-md-3 col-lg-2 col-xl-2 offset-lg-1">
+                        <h6 class="mb-0">$ 44.00</h6>
+                    </div>
+                    <div class="col-md-1 col-lg-1 col-xl-1 text-end">
+                        <a href="#!" class="text-muted"><i class="fas fa-times"></i></a>
+                    </div>
+                </div>
+
+                <hr class="my-4">
+
+                <div class="row mb-4 d-flex justify-content-between align-items-center">
+                    <div class="col-md-2 col-lg-2 col-xl-2">
+                        <img src="./images/img5.jpg" class="img-fluid rounded-3" alt="">
+                    </div>
+                    <div class="col-md-3 col-lg-3 col-xl-3">
+                        <h6 class="text-muted">teacup</h6>
+                        <h6 class="text-black mb-0">Teacup</h6>
+                    </div>
+                    <div class="col-md-3 col-lg-3 col-xl-2 d-flex">
+                        <button class="btn btn-link px-2" onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
+      <i class="fas fa-minus"></i>
+    </button>
+
+                        <input id="form1" min="0" name="quantity" value="1" type="number" class="form-control form-control-sm" />
+
+                        <button class="btn btn-link px-2" onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
+      <i class="fas fa-plus"></i>
+    </button>
+                    </div>
+                    <div class="col-md-3 col-lg-2 col-xl-2 offset-lg-1">
+                        <h6 class="mb-0">$ 44.00</h6>
+                    </div>
+                    <div class="col-md-1 col-lg-1 col-xl-1 text-end">
+                        <a href="#!" class="text-muted"><i class="fas fa-times"></i></a>
+                    </div>
+                </div>
+
+                <hr class="my-4">
+
+                <div class="pt-5">
+                    <h6 class="mb-0">
+                        <i class="fa-solid fa-arrow-left"></i>
+                        <a class="icon-link icon-link-hover" style="--bs-link-hover-color-rgb: 25, 135, 84;" href="#">
+      Back to shop
+      <svg class="bi" aria-hidden="true"></svg>
+    </a>
+                    </h6>
+                </div>
+            </div>
+        </div>
+        <div class="col-4 p-0">
+            <div class=" ">
+                <div class="p-5">
+                    <h3 class="fw-bold mb-5 mt-2 pt-1">Summary</h3>
+                    <hr class="my-4">
+
+                    <div class="d-flex justify-content-between mb-4">
+                        <h5 class="text-uppercase">items 3</h5>
+                        <h5>$ 132.00</h5>
+                    </div>
+
+                    <hr class="my-4">
+
+                    <div class="d-flex justify-content-between mb-5">
+                        <h5 class="text-uppercase">Total price</h5>
+                        <h5>$ 132.00</h5>
+                    </div>
+                    <a href="" class="orange-hover-a">
+                        <button type="button " class="btn btn-dark rounded-0 " data-mdb-ripple-color="dark">Proceed to checkout</button>
+                    </a>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+
+    <hr class="p-5">
+    <div id="footer" class="text-body m-0">
+        <div class="row m-0">
+            <div class=" col-4 m-0 pl-3 d-flex flex-column">
+                <div class="w-100"> <img src="./images/logo-1685434770.jpg" alt=""></div>
+                <span class="text-sm">2593 Timbercrest Road, Chisana, Alaska Badalas
+              United State</span>
+                <ul id="footer-link" class="list-unstyled">
+                    <li><a class="text-decoration-none text-body " href="">(+01)2-345-6789</a></li>
+                    <li>
+                        <a class="text-decoration-none text-body" href="">[email protected]</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-2 m-0 p-0 ">
+                <h5 class=" mb-0">Our Product</h5>
+                <ul id="footer-link" class=" text-sm list-unstyled ">
+                    <li>
+                        <a class="text-decoration-none text-body" href="#">Bestsellers</a>
+                    </li>
+                    <li>
+                        <a class="text-decoration-none text-body" href="#">New In</a>
+                    </li>
+                    <li>
+                        <a class="text-decoration-none text-body" href="#">Chairs</a>
+                    </li>
+                    <li>
+                        <a class="text-decoration-none text-body" href="#">Sofas</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-2 m-0 p-0 ">
+                <h5 class=" mb-0">Useful Links</h5>
+                <ul id="footer-link" class=" text-sm list-unstyled ">
+                    <li>
+                        <a class="text-decoration-none text-body" href="#">About Us</a>
+                    </li>
+                    <li>
+                        <a class="text-decoration-none text-body" href="#">Blogs</a>
+                    </li>
+                    <li>
+                        <a class="text-decoration-none text-body" href="#">FAQs</a>
+                    </li>
+                    <li>
+                        <a class="text-decoration-none text-body" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-4 m-0 p-0">
+                <h5 class=" mb-0">Newsletter</h5>
+                <span class="text-sm">Stay Updated on all that's new add noteworthy</span>
+                <div class="d-flex flex-column mt-2">
+                    <div>
+                        <div class="d-flex flex-row input-group mb-3">
+                            <input type="email" class="form-control border-0 shadow-sm" placeholder="Your email address" aria-label="Email address" aria-describedby="subscribe-btn">
+                            <button class="btn btn-link btn-hover text-decoration-none text-body shadow-sm" type="button" id="subscribe-btn">Subscribe</button>
+                        </div>
+                    </div>
+                    <div id="footer-icon" class="text-gray">
+                        <a class="w-25 text-gray" href=""><i class=" px-3 fa-brands fa-facebook"></i></a>
+                        <a class="w-25 text-gray" href=""><i class=" px-3 fa-brands fa-twitter"></i></a>
+                        <a class="w-25 text-gray" href=""><i class=" px-3 fa-brands fa-google-plus"></i></a>
+                        <a class="w-25 text-gray" href=""><i class=" px-3 fa-brands fa-vk"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- hr -->
+    <div class="d-flex justify-content-center  pt-5">
+        <hr class="w-90">
+    </div>
+
+    <!-- copyright -->
+    <div class="row m-0 pb-3 pt-3 mt-2">
+        <div class="col-8 text-sm">
+            <p class="text-gray">Copyright © 2023 <span class="text-body">Decor.</span> All rights reserved.</p>
+        </div>
+        <div class="col-lg-4 d-flex float-end p-2 pe-0">
+            <img src="./images/vt_decor_home1-card.png" alt="">
+        </div>
+    </div>
+
+</body>
+
+<!-- Js -->
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="./js/detail.js"></script>
+
+<script>
+    $(document).ready(function() {
+        loadCart()
+    });
+</script>
+<script src="/js/cart.js"></script>
+
+</html>

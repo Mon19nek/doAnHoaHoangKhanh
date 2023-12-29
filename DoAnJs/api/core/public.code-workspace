@@ -1,0 +1,13 @@
+{
+    "folders": [
+		{
+			"path": "../../../../Users/HP/OneDrive/Documents/public"
+		},
+		{
+			"path": ".."
+		}
+	],
+    "settings": {
+        "liveServer.settings.multiRootWorkspaceName": "public"
+    }
+}
